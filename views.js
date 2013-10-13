@@ -59,10 +59,6 @@ var UserView = View.extend({
     return view.render();
   },
 
-  renderLikes: function () {
-    return '<p class="js-likes"></p>'
-  },
-
   events: {
     'change input': 'save',
     'click .delete': 'destroy'
